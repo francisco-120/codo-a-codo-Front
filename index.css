@@ -1,0 +1,193 @@
+body{
+    background-color: black;
+}
+
+.contenedor{
+    border: solid 4px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: black;
+    border-bottom: solid 3px rgb(59, 59, 59);
+}
+.marca{
+    font-size: 35px;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+nav a:hover{
+    background-color: rgb(197, 157, 65);
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.marca:hover{
+    background-color: rgb(0, 0, 0);
+}
+.barralateral{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 75vh;
+    width: 250px;
+    z-index: 1000;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    background-color: rgba(0, 0, 0, 0.837);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-left: solid 3px rgba(214, 214, 214, 0.646);
+    border-bottom: solid 3px rgba(214, 214, 214, 0.646);
+}
+.barralateral li{
+    width: 100%;
+}
+.barralateral a{
+    width: 100%;
+    padding: 5px 10px;
+}
+.menu-BT{
+    display: none;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-BT{
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    .barralateral{
+        width: 100%;
+    }
+}
+/* -------------------------------------------- */
+
+.seccion1{
+    background-color: black;
+}
+.seccion1 h2{
+    font-size: 63px;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.linea{
+    display: block;
+    border-bottom: 2px solid white;
+    width: 300px; /* Ajusta el ancho de la línea según sea necesario */
+    margin: 10px auto; 
+    margin-bottom: 10px;
+}
+.botonSeccion1{
+    padding: 5px 15px;
+    border: solid 2px rgb(214, 180, 101);
+    background-color: black;
+    color: rgb(214, 180, 101);
+    font-weight: bold;
+    transition: background-color 0.5s, color 0.5s, transform 0.5s;
+}
+.botonSeccion1:hover{
+    background-color: rgb(214, 180, 101);
+    color: black;
+    transform: scale(1.1);
+}
+
+.quienesSomos{
+    background-color: white;
+}
+.quienesSomos div img{
+    margin: 40px;
+    border-radius: 100px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.445);
+}
+
+.seccion4{
+    padding-top: 45px;
+}
+.seccion4 div img{
+    filter: grayscale(100%);
+}
+.seccion4 div p{
+    margin: auto;
+    width: 80%;
+}
+.seccion4 div{
+    margin-top: 40px;
+}
+
+.seccion3{
+    background-color: black;
+}
+.seccion3 p{
+    width: 70%;
+    margin: auto;
+}
+.linea2{
+    display: block;
+    border-bottom: 2px solid white;
+    width: 200px; /* Ajusta el ancho de la línea según sea necesario */
+    margin: 10px auto; 
+    margin-bottom: 10px;
+}
+
+.fonth2{
+    font-family: Georgia;
+}
+
+
+.botonAntesDesp{
+    background-color: rgb(10, 10, 10);
+    height: 50px;
+    width: 50px;
+    margin-top: 10%;
+}
+
+.contacto{
+    background-color: rgb(227, 227, 227);
+    padding-top: 5px;
+}
+
+form{
+    padding: 25px;
+    border-radius: 15px;
+}
+
+footer{
+    border-top: solid 2px rgb(120, 120, 120);
+}

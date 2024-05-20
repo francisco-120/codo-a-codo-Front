@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MisJoyas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="container-xl contenedor">
+
+    <header class="text-center" id="inicio">
+      <img src="./img/logo.png" alt="Logo de la marca" width="80px">
+        <nav>
+          <ul class="barralateral">            
+              <li onclick=ocultarNav()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#quienesSomos">Quienes Somos</a></li>
+              <li><a href="#productos">Productos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <ul>
+              <li><a class="marca" href="#">Eclat Joyeria</a></li>
+              <li class="hideOnMobile"><a href="#inicio">Inicio</a></li>
+              <li class="hideOnMobile"><a href="#quienesSomos">Quienes Somos</a></li>
+              <li class="hideOnMobile"><a href="#productos">Productos</a></li>
+              <li class="hideOnMobile"><a href="#contacto">Contacto</a></li>
+              <li class="menu-BT" onclick=mostrarNav()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+      
+      <div class="d-flex flex-wrap seccion1">
+        <div class="col-md-6 mx-auto text-white text-center align-self-center p-5">
+          <h2 class="display-5 fw-bold text-white">Eclat Shine Joyaeria</h2>
+          <span class="linea"></span>
+          <p>Destellos de distinción</p>
+          <button class="botonSeccion1">Comprar</button>
+        </div>
+        <div class="col-md-6 text-center">
+          <img class="" src="./img/anillo5.jpg" width="100%" alt="Anillo">
+        </div>
+      </div>
+
+      <div class="row  flex-wrap align-items-center py-5 quienesSomos" id="quienesSomos">
+        <div class="col-lg-7 text-center">
+          <h2 class="fw-bold">¿Quienes Somos?</h2>
+            <p class="p-5">Sabemos la importancia que tiene para nuestros    clientes que sus acciones prosperen, es por eso que MisJoyas se distingue por la atención personalizada en un entorno seguro. Un servicio impecable y el mejor destino para aquello que atesoró toda su vida.
+
+            Líder en su rubro, ofrece expertos gemólogos de joyas, como así también, tasadores profesionales de oro y relojes de primeras marcas. Si lo precisa, adquiera el Certificado Internacional de Autenticidad de sus brillantes para que nadie dude de la calidad de su reliquia.</p>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-5 text-center m-auto">
+          <img src="./img/anillo6.webp" class="mx-lg-auto img-fluid" alt="Anillo" width="350px">
+        </div>
+      </div>
+
+
+      <div class="text-center p-5 seccion3">
+        <h2 class="text-white fonth2">Futuros productos</h2>
+        <span class="linea2"></span>
+        <p class="text-white">Descubre el encanto que está por llegar con nuestra emocionante colección de futuros productos de joyería. Desde deslumbrantes collares hasta elegantes pulseras, estamos preparando una gama de piezas únicas que elevarán tu estilo a nuevas alturas.</p>
+      </div>
+
+
+      <div class="row text-center seccion4 bg-white pt-5 pb-5">
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" src="./img/REFORMA.webp" alt="Reforma de anillo">
+          <h2 class="fw-normal">Reforma de joyas</h2>
+          <p>Renovamos sus joyas con diseños inspirados en las tendencias modernas o en formas clásicas. Ponemos a su disposición, sin cargo, servicios de diseño y maquetas para elegir su joya a medida.</p>
+        </div>
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" src="./img/CERTIFICADO.webp" alt="Certificado de autenticidad">
+          <h2 class="fw-normal">Certificado de Autenticidad</h2>
+          <p>Todas nuestras joyas se entregan con un certificado internacional de autenticidad donde se detallan sus características.</p>
+        </div>
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" src="./img/ENTREGAS.webp" alt="Un regalo">
+          <h2 class="fw-normal">Entregas a Domicilio</h2>
+          <p>Dentro de Capital Federal, le enviamos su compra con nuestro chofer privado.
+          También hacemos envíos a todo el país y al resto del mundo sin cargo adicional. No dude en consultarnos.</p>
+        </div>
+      </div>
+
+      <div class="text-center bg-white pt-5" id="productos">
+        <h2>Productos</h2>
+        <p>Más proximamente...</p>
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="card m-2" style="width: 18rem;">
+            <img src="./img/image.png" class="card-img-top" alt="Anillo">
+            <div class="card-body">
+              <h5 class="card-title">Anillo Corona deslumbrante transparente</h5>
+              <p class="card-text">Lleva a tus atuendos una explosión de brillo con el anillo Corona deslumbrante azul de plata esterlina. La forma de garra de la circonia cúbica transparente grande crea el efecto de una corona real en el anillo solitario y se complementa con pequeñas piedras engastadas a lo largo de la banda del anillo.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Anillos</li>
+              <li class="list-group-item">$ 326.600</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">
+                <button type="button" class="btn btn-outline-dark">Agregar al carrito</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="contacto pt-5" id="contacto">
+        <h2 class="text-center">Sigamos en contacto</h2>
+        <p class="text-center">Envianos tu consulta y enterate de las ultimas novedades</p>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <form class="text-center">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Ingresa tu email" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="inputNombre" placeholder="Ingresa tu nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="inputAsunto" placeholder="Asunto" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="inputConsulta" rows="3" placeholder="Escribe tu consulta aquí" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Consulta</button>
+                </form>
+            </div>
+  
+      </div>
+
+    </main>
+
+
+    <footer class="pt-5 pb-4 bg-white">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Quienes somos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Productos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">©2024 codo a codo</p>
+    </footer>
+
+
+  <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
